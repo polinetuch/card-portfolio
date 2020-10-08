@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "card-01",
+    "image": "https://www.kikki-k.com/on/demandware.static/-/Sites-kikki-master-catalogue/default/dw1ffe9880/images/11033501/11033501-black.jpg"
+  },
+  {
+    "id": 2,
+    "name": "card-02",
+    "image": "https://ideas.hallmark.com/wp-content/uploads/2020/08/WTW_Birthday.jpg"
+  },
+  {
+    "id": 3,
+    "name": "card-03",
+    "image": "https://www.kikki-k.com/on/demandware.static/-/Sites-kikki-master-catalogue/default/dw795127d5/images/11139601/11139601-royal_blue_gold.jpg"
+  }
+]

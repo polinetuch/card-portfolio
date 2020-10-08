@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+
+$Font: "Chilanka", cursive;
+.landing-page {
+  &__about {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    // border-radius: 10pxs;
+    box-shadow: 2px 2px 2px 2px #e5e5e5;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  &__paragraph {
+    font-family: $Font;
+    width: 545px;
+    height: 305px;
+  }
+
+  &__btn {
+    font-family: $Font;
+    font-weight: bold;
+    width: 212px;
+    height: 73px;
+    font-size: 30px;
+  }
+}

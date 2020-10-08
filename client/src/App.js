@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.scss';
-
-function App() {
+import LandingPage from './components/LandingPage/LandingPage';
+const App = () => {
   return (
     <div className="App">
-      <header className='ap-header'>
-        <h1>Hello</h1>
-      </header>
+      <LandingPage/>
     </div>
   );
 }

@@ -1,0 +1,16 @@
+.landing-page__grid {
+  width: 50%;
+  background-color: white;
+  // border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #e5e5e5;
+  margin-right: 10px;
+  margin-left: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.landing-page__grid-image {
+  width: 208px;
+  height: 208px;
+}
