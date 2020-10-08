@@ -8,4 +8,4 @@ A portfolio that I am currently building for a friend of mine, who designs greet
 
 ![Image of Yarn Logo](https://www.pinclipart.com/picdir/middle/207-2071105_0-yarn-js-logo-clipart.png)
 
-![Image of NPM Logo](https://e7.pngegg.com/pngimages/460/955/png-clipart-node-js-javascript-npm-web-server-source-code-laravel-angle-text.png)
+![Image of NPM Logo](https://i7.pngflow.com/pngimage/790/54/png-node-js-javascript-express-js-web-server-firebase-icon-angle-text-logo-c-clipart.png)
