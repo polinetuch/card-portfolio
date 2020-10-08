@@ -1,0 +1,9 @@
+$mainColor: green;
+.App {
+  text-align: center;
+  background: $mainColor;
+  .app-header {
+    height: 100%;
+    width: 100%;
+  }
+}
