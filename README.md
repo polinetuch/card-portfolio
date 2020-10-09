@@ -8,11 +8,9 @@ A portfolio that I am currently building for a friend of mine, who sells persona
   - Types of cards (birthday, anniversary, wedding and many more)
   - When users finish the forms, submit button will appear
  - Users can access to the owner/artist contact details by clicking on contact
- 
+
+#Technologies & Tools
 <table>
-  <tr>
-    <th><h1>Technologies</h1></th>
-  </tr>
   <tr>
     <td><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" width="18%"></td>
   </tr>
