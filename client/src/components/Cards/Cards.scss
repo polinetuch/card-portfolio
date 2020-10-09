@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+
+.cards {
+  &__container {
+    text-align: center;
+  }
+
+  &__title {
+    color: #747069;
+    // background-color: #fef8eb;
+  }
+
+  &__title:hover {
+    color: black;
+    border-radius: 1px 1px 1px 1px;
+  }
+  &__container {
+    font-family: "Oxygen", sans-serif;
+  }
+  &__image-element {
+    display: flexbox;
+    flex-direction: row;
+    width: 408px;
+    height: 408px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #747069;
+  }
+}

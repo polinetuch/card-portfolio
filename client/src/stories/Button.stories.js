@@ -1,19 +1,19 @@
 import React from 'react';
-import { actions } from '@storybook/addon-actions'
-import Button from '../components/LandingPage/GridImages/GridImageButton/GridImageButton';
+import { action } from '@storybook/addon-actions'
+import GridImageButton from '../components/LandingPage/GridImages/GridImageButton/GridImageButton';
 
 export default {
   title: 'Grid-Button',
-  component: Button,
+  component: GridImageButton
 };
 
 export const DoSth = () => {
   return (
-    <Button onClick={actions('clicked')}>Grid Button</Button>
+    <GridImageButton onClick={action('clicked')}/>
   )
 }
 
-// const Template = (args) => <Button {...args} />;
+// const Button = (args) => <Button {...args} />;
 
 // export const Primary = Template.bind({});
 // Primary.args = {
