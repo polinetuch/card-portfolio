@@ -1,8 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+// .landing-page__grid {
+//   background-color: white;
+//   height: 100vh;
+//   width: 100%;
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 2px 2px #e5e5e5;
+//     margin-right: 10px;
+//     margin-left: 0;
+//     padding: 10px;
+//     display: flex;
+//     flex-direction: row;
+// }
 
-.about {
+.grid {
   &__split {
-    background-color: #f4efe5;
     height: 100%;
     width: 50%;
     position: fixed;
@@ -12,8 +22,9 @@
     padding-top: 20px;
   }
 
-  &__left {
-    left: 0;
+  &__right {
+    right: 0;
+    background-color: white;
   }
 
   &__centered {
@@ -24,10 +35,9 @@
     text-align: center;
   }
 
-  &__paragraph {
-    font-family: "Oxygen", sans-serif;
-    width: 545px;
-    height: 305px;
+  &__image {
+    width: 230px;
+    height: 230px;
   }
 
   &__button {
@@ -38,7 +48,7 @@
     color: white;
     width: 212px;
     height: 73px;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   &__button:hover {

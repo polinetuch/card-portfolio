@@ -1,6 +1,6 @@
 import React from 'react';
 import cardImages from './Images/cardImages.json';
-import './SampleGrid.scss';
+import './GridImages.scss';
 
 const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {

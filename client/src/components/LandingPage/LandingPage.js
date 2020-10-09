@@ -1,6 +1,6 @@
 import React from 'react';
 import About from './About/About';
-import SampleGrid from './SampleGrid/SampleGrid';
+import SampleGrid from './GridImages/GridImages';
 import './LandingPage.scss';
 
 const LandingPage = () => {
