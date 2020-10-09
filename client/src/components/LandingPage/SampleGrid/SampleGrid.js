@@ -4,12 +4,14 @@ import './SampleGrid.scss';
 
 const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {
-        return <img className='landing-page__grid-image' key={index} src={imgElement.image} alt=''/>
+        return <img className='grid__image' key={index} src={imgElement.image} alt=''/>
     })
 
     return (
-        <div className='landing-page__grid'>
-            {showAllCards}
+        <div className='grid__split grid__right'>
+            <div className='grid__centered'>
+                {showAllCards}
+            </div>
         </div>
     )
 };
