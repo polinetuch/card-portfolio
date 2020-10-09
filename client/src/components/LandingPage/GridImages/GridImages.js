@@ -1,6 +1,7 @@
 import React from 'react';
 import cardImages from './Images/cardImages.json';
 import './GridImages.scss';
+import GridImageButton from './GridImageButton/GridImageButton';
 
 const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {
@@ -11,7 +12,7 @@ const SampleGrid = () => {
         <div className='grid__split grid__right'>
             <div className='grid__centered'>
                 {showAllCards}
-                <button className='grid__button'>Browse Cards</button>
+                <GridImageButton/>
             </div>
         </div>
     )
