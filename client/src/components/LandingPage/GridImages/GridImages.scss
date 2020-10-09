@@ -1,16 +1,3 @@
-// .landing-page__grid {
-//   background-color: white;
-//   height: 100vh;
-//   width: 100%;
-//     border-radius: 10px;
-//     box-shadow: 2px 2px 2px 2px #e5e5e5;
-//     margin-right: 10px;
-//     margin-left: 0;
-//     padding: 10px;
-//     display: flex;
-//     flex-direction: row;
-// }
-
 .grid {
   &__split {
     height: 100%;
@@ -38,5 +25,23 @@
   &__image {
     width: 208px;
     height: 208px;
+  }
+
+  &__button {
+    font-family: "Oxygen", sans-serif;
+    background-color: #eb6649;
+    border-radius: 10px;
+    box-shadow: 10px #ffffff;
+    color: white;
+    width: 212px;
+    height: 73px;
+    font-size: 30px;
+  }
+
+  &__button:hover {
+    background-color: #f4efe5;
+    color: #eb6649;
+    cursor: pointer;
+    font-weight: bold;
   }
 }

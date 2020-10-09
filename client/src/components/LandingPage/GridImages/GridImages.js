@@ -11,6 +11,7 @@ const SampleGrid = () => {
         <div className='grid__split grid__right'>
             <div className='grid__centered'>
                 {showAllCards}
+                <button className='grid__button'>Browse Cards</button>
             </div>
         </div>
     )
