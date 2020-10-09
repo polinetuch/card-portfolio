@@ -8,7 +8,7 @@ const About = () => {
                 <h1 className='about__paragraph'>Ready to customise your own greeting cards? deboodle 
                     is here for you. Find out more.
                 </h1>
-                <button href="cards" className='about__button'>Customise Cards</button>
+                <button href="cards" className='about__button'>Browse cards</button>
             </div>
         </div>
     )
