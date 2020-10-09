@@ -10,7 +10,7 @@ A portfolio that I am currently building for a friend of mine, who sells persona
  - Users can access to the owner/artist contact details by clicking on contact
 
 # Technologies I am using:
-![Image of React Logo](https://www.import.io/wp-content/uploads/2017/10/React-logo.png){:height="36px" width="36px"}
+![Image of React Logo](https://www.import.io/wp-content/uploads/2017/10/React-logo.png)
 ![Image of Storybook Logo](https://miro.medium.com/max/1200/1*I1bJuD1D5G2FvWP5IVyyFQ.png)
 ![Image of Sass Logo](https://blog.alexdevero.com/wp-content/uploads/2015/03/sass-logo.jpg)
 ![Image of Yarn Logo](https://miro.medium.com/max/9350/1*BCPTI5sT2C9JH76__X2WUg.png)
