@@ -11,9 +11,7 @@ const Cards = () => {
     return (
         <div className='cards__container'>
             <h1 className='cards__title'>Cards</h1>
-            <div>
                 {showAllImages}
-            </div>
         </div>
     )
 };
