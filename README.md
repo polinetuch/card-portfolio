@@ -12,7 +12,7 @@ A portfolio that I am currently building for a friend of mine, who sells persona
 # Technologies & Tools
 <table>
   <tr>
-    <td><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" width="18%"></td>
+    <td><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" width="18%" style="text-alight: center"></td>
   </tr>
   <tr>
     <td><img src="https://miro.medium.com/max/1200/1*I1bJuD1D5G2FvWP5IVyyFQ.png" width="18%"></td>
