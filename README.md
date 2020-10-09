@@ -8,20 +8,18 @@ A portfolio that I am currently building for a friend of mine, who sells persona
   - Types of cards (birthday, anniversary, wedding and many more)
   - When users finish the forms, submit button will appear
  - Users can access to the owner/artist contact details by clicking on contact
-
-# Technologies & Tools:
+ 
 <table>
   <tr>
-    <th>Technologies</th>
+    <th><h1>Technologies</h1></th>
   </tr>
   <tr>
     <td><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" width="18%"></td>
+    <td><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" width="18%"></td>
+    <td><img src="https://miro.medium.com/max/1200/1*I1bJuD1D5G2FvWP5IVyyFQ.png" width="18%"></td>
+    <td><img src="https://blog.alexdevero.com/wp-content/uploads/2015/03/sass-logo.jpg" width="18%"></td>
+    <td><img src="https://miro.medium.com/max/9350/1*BCPTI5sT2C9JH76__X2WUg.png" width="18%"></td>
+    <td><img src="https://www.agnosticdev.com/sites/default/files/2016-01/npm-logo_1.png" width="18%"></td>
    </tr>
 </table>
-<div>
-  <img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" width="18%">
-  <img src="https://miro.medium.com/max/1200/1*I1bJuD1D5G2FvWP5IVyyFQ.png" width="18%">
-  <img src="https://blog.alexdevero.com/wp-content/uploads/2015/03/sass-logo.jpg" width="18%">
-  <img src="https://miro.medium.com/max/9350/1*BCPTI5sT2C9JH76__X2WUg.png" width="18%">
-  <img src="https://www.agnosticdev.com/sites/default/files/2016-01/npm-logo_1.png" width="18%">
-</div>
+
