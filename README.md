@@ -1,5 +1,5 @@
 # deboodle
-A portfolio that I am currently building for a friend of mine, who design and sell all types of greetin cards including drawings, logo and etc.
+A portfolio that I am currently building for a friend of mine, who sells personalised all types of greetin cards including drawings, logo and etc.
 
 # Users stories
 - Users can browse all cards when click on 'browse cards' buttons
