@@ -1,0 +1,19 @@
+.cards {
+  height: 100vh;
+  &__title {
+    padding: 10px;
+  }
+  &__container {
+    text-align: center;
+    margin: auto;
+    color: black;
+  }
+
+  &__image-element {
+    width: 308px;
+    height: 308px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #747069;
+  }
+}

@@ -1,19 +1,18 @@
 import React from 'react';
-import allImages from '../GridImages/Images/cardImages.json';
+import cardImages from './Images/cardImages.json';
 import './Cards.scss';
 
-const Cards = () => {
-    const showAllImages = allImages.map((imgElement, index) => {
-        return (
-            <img className='cards__image-element' src={imgElement.image} key={index} alt=''/>
-        )
-    })
+const SampleGrid = () => {
+    const showAllCards = cardImages.map((imgElement, index) => {
+        return <img className='cards__images' key={index} src={imgElement.image} alt=''/>
+    });
+
     return (
-        <div className='cards__container'>
-            <h1 className='cards__title'>Cards</h1>
-                {showAllImages}
+        <div className='cards__div'>
+            <h1>Cards</h1>
+            {showAllCards}
         </div>
     )
 };
 
-export default Cards;
+export default SampleGrid;

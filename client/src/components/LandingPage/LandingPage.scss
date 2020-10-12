@@ -1,12 +1,39 @@
-// .landing-page {
-//     &__about {
-//       height: 100vh;
-//       width: 50%;
-//       float: left;
-//     }
-//     &__grid-image {
-//       height: 100vh;
-//       width: 50%;
-//       float: right;
-//     }
-// }
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 50px;
+
+  &__button {
+    font-family: "Oxygen", sans-serif;
+    background-color: #eb6649;
+    border-radius: 10px;
+    box-shadow: 10px #ffffff;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  &__button:hover {
+    background-color: #f4efe5;
+    color: #eb6649;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page {
+    height: 50vh;
+    font-size: 18px;
+
+    &__button {
+      width: 115px;
+      height: 40px;
+      font-size: 15px;
+    }
+  }
+}

@@ -6,31 +6,22 @@
   font-family: "Oxygen", sans-serif;
 }
 
-.landing-page {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
+// .landing-page {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 .container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   &__about {
     height: 100vh;
-    width: 50%;
   }
 
   &__grid-images {
     height: 100vh;
-    width: 50%;
   }
   &__cards {
-    background-color: white;
     height: 100vh;
   }
 }

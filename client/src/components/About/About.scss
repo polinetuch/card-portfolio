@@ -1,13 +1,18 @@
 .about {
+  font-size: 30px;
+  &__lists {
+    font-size: 25px;
+    padding: 5px;
+  }
+
   &__button {
     font-family: "Oxygen", sans-serif;
     background-color: #eb6649;
     border-radius: 10px;
     box-shadow: 10px #ffffff;
     color: white;
-    width: 212px;
-    height: 73px;
-    font-size: 30px;
+    width: 150px;
+    height: 40px;
   }
 
   &__button:hover {
@@ -15,5 +20,15 @@
     color: #eb6649;
     cursor: pointer;
     font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    height: 50vh;
+    font-size: 18px;
+    &__lists {
+      font-size: 15px;
+    }
   }
 }
