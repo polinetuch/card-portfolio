@@ -4,7 +4,7 @@ import './GridImages.scss';
 
 const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {
-        return <img className='grid__image' key={index} src={imgElement.image} alt=''/>
+        return <img className='grid__images' key={index} src={imgElement.image} alt=''/>
     })
 
     const handleClick = () => {
@@ -12,9 +12,11 @@ const SampleGrid = () => {
     }
 
     return (
-        <div className='grid__split grid__right'>
-            <div className='grid__centered'>
+        <div className='grid'>
+            <div className='grid__all-images'>
                 {showAllCards}
+            </div>
+            <div>
                 <button className='grid__button' onClick={handleClick}>Browse Cards</button>
             </div>
         </div>

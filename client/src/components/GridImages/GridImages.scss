@@ -1,0 +1,25 @@
+.grid {
+  &__images {
+    width: 308px;
+    height: 308px;
+    padding: 10px;
+  }
+
+  &__button {
+    font-family: "Oxygen", sans-serif;
+    background-color: #eb6649;
+    border-radius: 10px;
+    box-shadow: 10px #ffffff;
+    color: white;
+    width: 212px;
+    height: 73px;
+    font-size: 30px;
+  }
+
+  &__button:hover {
+    background-color: #f4efe5;
+    color: #eb6649;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import allImages from '../LandingPage/GridImages/Images/cardImages.json';
+import allImages from '../GridImages/Images/cardImages.json';
 import './Cards.scss';
 
 const Cards = () => {

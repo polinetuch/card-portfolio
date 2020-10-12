@@ -1,4 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+
 .App {
   text-align: center;
   scroll-behavior: smooth;
+  font-family: "Oxygen", sans-serif;
+}
+
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__about {
+    height: 100vh;
+    width: 50%;
+  }
+
+  &__grid-images {
+    height: 100vh;
+    width: 50%;
+  }
+  &__cards {
+    background-color: white;
+    height: 100vh;
+  }
 }
