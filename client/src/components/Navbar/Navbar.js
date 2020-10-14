@@ -11,7 +11,10 @@ const Navbar = (props) => {
                 </div>
                 <div>
                     <a href='/' className='navbar__logo'>
-                        Logo
+                        <img 
+                            className='navbar__logo-image'
+                            src='https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/deboodle_logo.jpg?raw=true' 
+                            alt='Deboole Logo'/>
                     </a>
                 </div>
                 <div className='navbar__spacer'/>
