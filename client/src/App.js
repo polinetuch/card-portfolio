@@ -15,20 +15,20 @@ const App = () => {
     setSideDrawerOpen((prevState) => !prevState)
   }
 
+  const backDropClickHandler = () => {
+    setSideDrawerOpen(false)
+  };
+
   let sideDrawer;
   let backDrop;
   if (sideDrawerOpen) {
     sideDrawer = <SideDrawer/>;
-    backDrop = <Backdrop/>;
+    backDrop = <Backdrop click={backDropClickHandler}/>;
   }
+
   return (
     <div className="App">
       <Navbar drawerClickHandler={drawerToggleClickHandler}/>
-        {/* <NavItem value='About'/>
-        <NavItem value='Cards'/>
-        <NavItem value='Illustrations'/>
-        <NavItem value='Order'/>
-      </Navbar> */}
       {sideDrawer}
       {backDrop}
       <div className='landing-page'>

@@ -5,10 +5,10 @@ import './Cards.scss';
 const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {
         return ( 
-                <figure>
-                    <img className='cards__images' key={index} src={imgElement.image} alt=''/>
-                    <figcaption>images</figcaption>
-                </figure>
+            <figure>
+                <img className='cards__images' key={index} src={imgElement.image} alt=''/>
+                <figcaption>images</figcaption>
+            </figure>
         )
     });
 

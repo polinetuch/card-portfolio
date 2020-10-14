@@ -3,12 +3,13 @@
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   &__images {
-    width: 408px;
-    height: 408px;
-    padding: 10px;
-    margin: auto;
+    width: 308px;
+    height: 308px;
+    // padding: 10px;
+    // margin: auto;
   }
 }
 
