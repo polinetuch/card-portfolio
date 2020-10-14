@@ -6,7 +6,7 @@ const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {
         return ( 
             <figure>
-                <img className='cards__images' key={index} src={imgElement.image} alt=''/>
+                <img className='cards__images' key={index} src={imgElement.image} alt={imgElement.name}/>
                 <figcaption>{imgElement.name}</figcaption>
             </figure>
         )
