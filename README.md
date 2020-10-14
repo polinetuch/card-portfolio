@@ -8,6 +8,9 @@ A portfolio that I have volunteered to create for a client, who is an emerging a
   - When users finish the forms, submit button will appear
  - Users can access to the owner/artist contact details by clicking on contact
 
+#View progress
+<video src='https://drive.google.com/file/d/1zQM9fSnggiFSQjTrIVhQLklRTO0o2yX2/view'>My current progress after nearly a week</video>
+
 # Technologies & Tools
 <table>
   <tr>
