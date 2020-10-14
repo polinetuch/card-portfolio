@@ -1,8 +1,12 @@
 .cards {
-  height: 100vh;
+  &__image-container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
   &__images {
-    width: 308px;
-    height: 308px;
+    width: 408px;
+    height: 408px;
     padding: 10px;
     margin: auto;
   }

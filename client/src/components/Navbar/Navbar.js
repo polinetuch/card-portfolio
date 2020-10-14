@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <header className='navbar'>
             <nav className='navbar__navigation'>
                 <div>
-                    <Hamburger/>
+                    <Hamburger click={props.drawerClickHandler}/>
                 </div>
                 <div>
                     <a href='/' className='navbar__logo'>
@@ -19,9 +19,9 @@ const Navbar = (props) => {
                     {/* <ul className='navbar__about'>{props.children}</ul> */}
                     <ul>
                         <li><a href='/'>Home</a></li>
-                        <li><a href='/'>About</a></li>
-                        <li><a href='/'>Cards</a></li>
-                        <li><a href='/'>Illustrations</a></li>
+                        <li><a href='/#about'>About</a></li>
+                        <li><a href='/#cards'>Cards</a></li>
+                        <li><a href='/#illustrations'>Illustrations</a></li>
                     </ul>
                 </div>
             </nav>

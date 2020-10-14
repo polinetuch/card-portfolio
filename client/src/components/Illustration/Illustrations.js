@@ -9,7 +9,7 @@ const Cards = () => {
         )
     })
     return (
-        <div className='cards__container'>
+        <div className='cards__container' id='illustrations'>
             <h1 className='cards__title'>Illustrations</h1>
                 {showAllImages}
         </div>

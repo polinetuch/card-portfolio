@@ -1,23 +1,36 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
-// import NavItem from './components/Navbar/NavItem/NavItem';
 import LandingPage from './components/LandingPage/LandingPage';
 import About from './components/About/About';
 import Cards from './components/Cards/Cards';
 import Illustrations from './components/Illustration/Illustrations';
 import SideDrawer from './components/SideDrawer/SideDrawer';
+import Backdrop from './components/Backdrop/Backdrop';
+
 const App = () => {
+  const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
+
+  const drawerToggleClickHandler = () => {
+    setSideDrawerOpen((prevState) => !prevState)
+  }
+
+  let sideDrawer;
+  let backDrop;
+  if (sideDrawerOpen) {
+    sideDrawer = <SideDrawer/>;
+    backDrop = <Backdrop/>;
+  }
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar drawerClickHandler={drawerToggleClickHandler}/>
         {/* <NavItem value='About'/>
         <NavItem value='Cards'/>
         <NavItem value='Illustrations'/>
         <NavItem value='Order'/>
       </Navbar> */}
-
-      <SideDrawer/>
+      {sideDrawer}
+      {backDrop}
       <div className='landing-page'>
         <LandingPage/>
       </div>
