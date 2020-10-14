@@ -7,6 +7,7 @@ import Cards from './components/Cards/Cards';
 import Illustrations from './components/Illustration/Illustrations';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Contact from './components/Footer/Footer';
 
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -33,6 +34,7 @@ const App = () => {
       <About/>
       <Cards/>
       <Illustrations/>
+      <Contact/>
     </div>
   );
 }
