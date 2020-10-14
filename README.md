@@ -8,10 +8,10 @@ A portfolio that I have volunteered to create for a client, who is an emerging a
   - When users finish the forms, submit button will appear
  - Users can access to the owner/artist contact details by clicking on contact
 
-# View progress
+# Progress
 
 ![View Video Demo](https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/progress.JPG?raw=true)
-[!Demo video](https://drive.google.com/file/d/1zQM9fSnggiFSQjTrIVhQLklRTO0o2yX2/view)
+## [View Demo video](https://drive.google.com/file/d/1zQM9fSnggiFSQjTrIVhQLklRTO0o2yX2/view)
 
 # Technologies & Tools
 <table>
