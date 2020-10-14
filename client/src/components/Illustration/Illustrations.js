@@ -5,13 +5,18 @@ import './Illustrations.scss';
 const Cards = () => {
     const showAllImages = allImages.map((imgElement, index) => {
         return (
-            <img className='cards__image-element' src={imgElement.image} key={index} alt=''/>
-        )
+            <figure>
+                <img className='cards__image-element' key={index} src={imgElement.image} alt=''/>
+                <figcaption>{imgElement.name}</figcaption>
+            </figure>
+            )
     })
     return (
         <div className='cards__container' id='illustrations'>
             <h1 className='cards__title'>Illustrations</h1>
+            <div className='cards__all-images'>
                 {showAllImages}
+            </div>
         </div>
     )
 };

@@ -1,27 +1,17 @@
 .about {
   font-size: 30px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &__lists {
     font-size: 25px;
-    padding: 5px;
     list-style: none;
   }
+}
 
-  &__button {
-    font-family: "Oxygen", sans-serif;
-    background-color: #eb6649;
-    border-radius: 10px;
-    box-shadow: 10px #ffffff;
-    color: white;
-    width: 150px;
-    height: 40px;
-  }
-
-  &__button:hover {
-    background-color: #f4efe5;
-    color: #eb6649;
-    cursor: pointer;
-    font-weight: bold;
-  }
+.about li {
+  margin: 2rem 0;
 }
 
 @media only screen and (max-width: 600px) {

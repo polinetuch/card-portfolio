@@ -7,7 +7,7 @@ const SampleGrid = () => {
         return ( 
             <figure>
                 <img className='cards__images' key={index} src={imgElement.image} alt=''/>
-                <figcaption>images</figcaption>
+                <figcaption>{imgElement.name}</figcaption>
             </figure>
         )
     });

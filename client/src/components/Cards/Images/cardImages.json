@@ -1,22 +1,12 @@
 [
   {
     "id": 1,
-    "name": "card-01",
-    "image": "https://www.kikki-k.com/on/demandware.static/-/Sites-kikki-master-catalogue/default/dw1ffe9880/images/11033501/11033501-black.jpg"
+    "name": "Bunny On The Moon",
+    "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/BunnyOnMoon.jpg?raw=true"
   },
   {
     "id": 2,
-    "name": "card-02",
-    "image": "https://ideas.hallmark.com/wp-content/uploads/2020/08/WTW_Birthday.jpg"
-  },
-  {
-    "id": 3,
-    "name": "card-03",
-    "image": "https://www.kikki-k.com/on/demandware.static/-/Sites-kikki-master-catalogue/default/dw795127d5/images/11139601/11139601-royal_blue_gold.jpg"
-  },
-  {
-    "id": 4,
-    "name": "card-04",
-    "image": "https://www.kikki-k.com/on/demandware.static/-/Sites-kikki-master-catalogue/default/dwbd2e92eb/images/11265901/11265901-white.jpg"
+    "name": "A lady and children holding hands",
+    "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/GrilAndKids.jpg?raw=true"
   }
 ]

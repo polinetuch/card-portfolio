@@ -19,35 +19,20 @@ const App = () => {
     setSideDrawerOpen(false)
   };
 
-  let sideDrawer;
   let backDrop;
   if (sideDrawerOpen) {
-    sideDrawer = <SideDrawer/>;
     backDrop = <Backdrop click={backDropClickHandler}/>;
   }
 
   return (
     <div className="App">
       <Navbar drawerClickHandler={drawerToggleClickHandler}/>
-      {sideDrawer}
+      <SideDrawer showSideDrawer={sideDrawerOpen}/>
       {backDrop}
-      <div className='landing-page'>
-        <LandingPage/>
-      </div>
-      
-      <div className='container'>
-        <div className='container__about'>
-          <About/>
-        </div>
-
-        <div className='container_grid-images'>
-          <Cards/>
-        </div>
-      </div>
-
-      <div className='container__cards'>
-          <Illustrations/>
-      </div>
+      <LandingPage/>
+      <About/>
+      <Cards/>
+      <Illustrations/>
     </div>
   );
 }

@@ -1,15 +1,16 @@
 .cards {
-  &__image-container {
+  &__div {
     min-height: 100vh;
+  }
+
+  &__image-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   &__images {
-    width: 308px;
+    width: 408px;
     height: 308px;
-    // padding: 10px;
-    // margin: auto;
   }
 }
 
