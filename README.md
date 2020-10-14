@@ -1,6 +1,5 @@
 # deboodle
-A portfolio that I am currently building for a friend of mine, who sells personalised all types of greetin cards including drawings, logo and etc.
-
+A portfolio that I have volunteered to create for a client, who is an emerging artist and looking to start a customised cards, invitations and wall art business. This project is currently in progress.
 # Users stories
 - Users can browse all cards when click on 'browse cards' buttons
 - When users click on 'customise cards' button, the order form will pop up to submit the following information:
