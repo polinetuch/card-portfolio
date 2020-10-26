@@ -1,7 +1,11 @@
 .cards {
   &__div {
-    min-height: 100vh;
+    min-height: 100%;
     padding-top: 80px;
+    margin: 40px;
+    font-size: 35px;
+    background-color: white;
+    border: 1px solid black;
   }
 
   &__image-container {
@@ -9,22 +13,28 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  &__image-container figure {
+    font-size: 32px;
+  }
+
   &__images {
     width: 408px;
     height: 308px;
     box-shadow: 1px 1px 1px 1px #747069;
+    padding: 30px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .cards {
-    height: 50vh;
+    height: 100vh;
     font-size: 18px;
 
-    &__button {
-      width: 115px;
-      height: 40px;
-      font-size: 15px;
-    }
+    // &__button {
+    //   width: 115px;
+    //   height: 40px;
+    //   font-size: 15px;
+    // }
   }
 }

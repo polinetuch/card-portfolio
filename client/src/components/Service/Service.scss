@@ -20,10 +20,8 @@
 
 @media only screen and (max-width: 600px) {
   .about {
-    height: 50vh;
+    height: 89vh;
     font-size: 18px;
-    &__lists {
-      font-size: 15px;
-    }
+    margin: 10px;
   }
 }
