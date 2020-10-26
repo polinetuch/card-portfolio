@@ -1,12 +1,8 @@
 .cards {
-  &__title {
-    padding: 10px;
-  }
   &__container {
-    min-height: 100vh;
+    min-height: 100%;
     text-align: center;
     color: black;
-    padding-top: 80px;
     font-size: 35px;
     background-color: white;
     border: 1px solid black;
@@ -14,7 +10,6 @@
   }
 
   &__all-images {
-    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
