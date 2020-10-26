@@ -14,7 +14,7 @@
     background-color: #eb6649;
     font-family: "Amatic SC", cursive;
     border-radius: 10px;
-    box-shadow: 10px #ffffff;
+    border: white;
     color: black;
     width: 180px;
     height: 50px;
@@ -36,8 +36,9 @@
 
     &__button {
       width: 115px;
-      height: 40px;
-      font-size: 15px;
+      height: 60px;
+      font-size: 25px;
+      border: white;
     }
   }
 }
