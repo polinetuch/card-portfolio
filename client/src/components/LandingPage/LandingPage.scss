@@ -6,23 +6,33 @@
   flex-direction: column;
   font-size: 50px;
 
+  &__div {
+    border: 2px solid white;
+    background-color: #e9cfcc;
+    // border-radius: 5px 60px 0px 60px;
+    margin: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    opacity: 10;
+  }
+
   strong {
     font-family: "Amatic SC", cursive;
   }
 
   &__button {
-    background-color: #eb6649;
+    background-color: #c5aeab;
     font-family: "Amatic SC", cursive;
     border-radius: 10px;
     border: white;
-    color: black;
+    color: white;
     width: 180px;
     height: 50px;
     font-size: 35px;
   }
 
   &__button:hover {
-    background-color: #f4efe5;
+    background-color: blanchedalmond;
     color: #eb6649;
     cursor: pointer;
     font-weight: bold;
