@@ -44,7 +44,8 @@
   }
 
   &__navigation-items a:hover,
-  &__navigation-items a:active {
+  &__navigation-items a:focus {
+    font-weight: bold;
     color: #eb6649;
   }
 }
