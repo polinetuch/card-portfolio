@@ -7,13 +7,14 @@
   font-size: 50px;
 
   &__div {
-    border: 2px solid white;
-    background-color: #e9cfcc;
-    // border-radius: 5px 60px 0px 60px;
+    // border: 2px solid white;
+    // background-color: #e9cfcc;
+    border-radius: 5px 60px 0px 60px;
     margin: 50px;
     margin-top: 20px;
     padding: 20px;
     opacity: 10;
+    padding-bottom: 20px;
   }
 
   strong {
