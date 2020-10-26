@@ -21,7 +21,7 @@ const Navbar = (props) => {
                 <div className='navbar__navigation-items'>
                     <ul>
                         <li><a href='/'>Home</a></li>
-                        <li><a href='/#about'>About</a></li>
+                        <li><a href='/#about'>Service</a></li>
                         <li><a href='/#cards'>Cards</a></li>
                         <li><a href='/#illustrations'>Illustrations</a></li>
                         <li><a href='/#contact'>Contact</a></li>
