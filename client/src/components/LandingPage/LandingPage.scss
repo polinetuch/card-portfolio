@@ -6,15 +6,19 @@
   flex-direction: column;
   font-size: 50px;
 
+  strong {
+    font-family: "Amatic SC", cursive;
+  }
+
   &__button {
-    font-family: "Oxygen", sans-serif;
     background-color: #eb6649;
+    font-family: "Amatic SC", cursive;
     border-radius: 10px;
     box-shadow: 10px #ffffff;
-    color: white;
+    color: black;
     width: 180px;
     height: 50px;
-    font-size: 20px;
+    font-size: 35px;
   }
 
   &__button:hover {
