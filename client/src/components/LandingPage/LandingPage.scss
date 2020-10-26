@@ -1,17 +1,17 @@
 .landing-page {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   font-size: 50px;
 
   &__div {
     // border: 2px solid white;
     // background-color: #e9cfcc;
+    float: right;
     border-radius: 5px 60px 0px 60px;
-    margin: 50px;
-    margin-top: 20px;
+    margin-right: 300px;
+    margin-top: 150px;
     padding: 20px;
     opacity: 10;
     padding-bottom: 20px;
@@ -44,6 +44,10 @@
   .landing-page {
     height: 50vh;
     font-size: 35px;
+
+    &__div {
+      text-align: center;
+    }
 
     &__button {
       width: 115px;

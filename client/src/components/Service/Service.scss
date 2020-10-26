@@ -1,0 +1,29 @@
+.about {
+  font-size: 35px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    background-color: white;
+    opacity: 0.9;
+    border: 1px solid black;
+  }
+  &__lists li {
+    list-style: none;
+    font-size: 35px;
+    color: #000000;
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    height: 50vh;
+    font-size: 18px;
+    &__lists {
+      font-size: 15px;
+    }
+  }
+}

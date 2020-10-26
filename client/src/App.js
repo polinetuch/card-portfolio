@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './components/LandingPage/LandingPage';
-import About from './components/About/About';
+import Service from './components/Service/Service';
 import Cards from './components/Cards/Cards';
 import Illustrations from './components/Illustration/Illustrations';
 import SideDrawer from './components/SideDrawer/SideDrawer';
@@ -31,7 +31,7 @@ const App = () => {
       <SideDrawer showSideDrawer={sideDrawerOpen}/>
       {backDrop}
       <LandingPage/>
-      <About/>
+      <Service/>
       <Cards/>
       <Illustrations/>
       <Contact/>
