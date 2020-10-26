@@ -11,7 +11,8 @@ A portfolio that I have volunteered to create for a client, who is an emerging a
 # Progress
 
 ![View Video Demo](https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/progress.JPG?raw=true)
-#### [View Demo video](https://drive.google.com/file/d/1zQM9fSnggiFSQjTrIVhQLklRTO0o2yX2/view)
+#### [View Demo video progress 1](https://drive.google.com/file/d/1zQM9fSnggiFSQjTrIVhQLklRTO0o2yX2/view)
+#### [View Demo video progress 2](https://drive.google.com/file/d/1gvVKsajI4xgLSlydxCxk67N74RuSW50v/view)
 
 # Technologies & Tools
 <table>
