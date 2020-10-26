@@ -1,12 +1,11 @@
 .cards {
   &__container {
-    min-height: 100%;
-    text-align: center;
-    color: black;
+    min-height: 100vh;
+    margin-top: 100px;
+    margin: 40px;
     font-size: 35px;
     background-color: white;
     border: 1px solid black;
-    margin: 40px;
   }
 
   &__all-images {
@@ -18,6 +17,7 @@
   &__image-element {
     width: 408px;
     height: 308px;
+    background-color: white;
     box-shadow: 1px 1px 1px 1px #747069;
   }
 }
