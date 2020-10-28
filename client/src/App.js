@@ -1,14 +1,11 @@
 import React, {useState} from 'react';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
-import LandingPage from './components/LandingPage/LandingPage';
-import Service from './components/Service/Service';
-import Cards from './components/Cards/Cards';
-import Illustrations from './components/Illustration/Illustrations';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-import Contact from './components/Footer/Footer';
 import OrderForm from './components/Form/OrderForm';
+import Home from './components/Home/Home';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -28,15 +25,16 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navbar drawerClickHandler={drawerToggleClickHandler}/>
-      <SideDrawer showSideDrawer={sideDrawerOpen}/>
-      {backDrop}
-      <LandingPage/>
-      <Service/>
-      <Cards/>
-      <Illustrations/>
-      <OrderForm/>
-      <Contact/>
+      <Router>
+        <Navbar drawerClickHandler={drawerToggleClickHandler}/>
+        <Switch>
+          <Route path='/order-form'><OrderForm/></Route>
+          <Route path='/'><Home/></Route>
+          </Switch>
+        <SideDrawer showSideDrawer={sideDrawerOpen}/>
+        {backDrop}
+      </Router>
+
     </div>
   );
 }

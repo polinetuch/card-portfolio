@@ -1,6 +1,8 @@
 import React from 'react';
 import Hamburger from '../Hamburger/Hamburger';
 import './Navbar.scss';
+import OrderForm from '../Form/OrderForm';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const Navbar = (props) => {
     return (
@@ -24,7 +26,7 @@ const Navbar = (props) => {
                         <li><a href='/#service'>Service</a></li>
                         <li><a href='/#cards'>Cards</a></li>
                         <li><a href='/#illustrations'>Illustrations</a></li>
-                        <li><a href='#order-form'>Order</a></li>
+                        <li><Link to='/order-form'>Order</Link></li>
                         <li><a href='/#contact'>Contact</a></li>
                     </ul>
                 </div>
