@@ -5,8 +5,8 @@ import './Illustrations.scss';
 const Cards = () => {
     const showAllImages = allImages.map((imgElement, index) => {
         return (
-            <figure>
-                <img className='cards__image-element' key={index} src={imgElement.image} alt={imgElement.name}/>
+            <figure key={index}>
+                <img className='cards__image-element' src={imgElement.image} alt={imgElement.name}/>
                 <figcaption>{imgElement.name}</figcaption>
             </figure>
             )

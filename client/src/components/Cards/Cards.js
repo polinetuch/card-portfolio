@@ -5,8 +5,8 @@ import './Cards.scss';
 const SampleGrid = () => {
     const showAllCards = cardImages.map((imgElement, index) => {
         return ( 
-            <figure>
-                <img className='cards__images' key={index} src={imgElement.image} alt={imgElement.name}/>
+            <figure key={index}>
+                <img className='cards__images' src={imgElement.image} alt={imgElement.name}/>
                 <figcaption>{imgElement.name}</figcaption>
             </figure>
         )

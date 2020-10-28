@@ -8,6 +8,7 @@ import Illustrations from './components/Illustration/Illustrations';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Contact from './components/Footer/Footer';
+import OrderForm from './components/Form/OrderForm';
 
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -34,6 +35,7 @@ const App = () => {
       <Service/>
       <Cards/>
       <Illustrations/>
+      <OrderForm/>
       <Contact/>
     </div>
   );

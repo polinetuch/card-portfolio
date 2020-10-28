@@ -1,0 +1,41 @@
+.order-form {
+  &__container {
+    min-height: 100vh;
+    padding-top: 100px;
+    background-color: blanchedalmond;
+  }
+
+  &__right {
+    h1 {
+      font-size: 70px;
+    }
+
+    label {
+      font-size: 35px;
+    }
+
+    button {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    input {
+      padding: 10px;
+    }
+  }
+
+  &__left {
+    p {
+      font-size: 70px;
+      // margin: 10px;
+    }
+  }
+
+  // &__vertical {
+  //   border-left: 6px solid black;
+  //   min-height: 100vh;
+  //   left: 50%;
+  //   margin-left: -3px;
+  //   top: 0;
+  // }
+}
