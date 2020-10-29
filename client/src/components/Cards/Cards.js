@@ -18,7 +18,6 @@ const SampleGrid = () => {
             <div className='cards__image-container'>
                 {showAllCards}
             </div>
-            <img src='./logo512.png'/>
         </div>
     )
 };

@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import './OrderForm.scss';
+import './PersonalDetails.scss';
 
 const OrderForm = () => {
     const [userDetails, setUserDetails] = useState({
         fullName: '',
         email: '',
         address: '',
-        dateExpected: ''
+        dateExpected: '',
     });
+
+    const [step, setStep] = useState(1)
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -29,6 +31,9 @@ const OrderForm = () => {
         })
     };
 
+    const nextStep = () => {
+
+    }
 
     return (
         <div className='order-form__container' id='order-form'>
@@ -89,7 +94,7 @@ const OrderForm = () => {
                                 />
                             </label> 
                         </div>
-                        <button type='submit' value='submit'>Submit</button>
+                        <button type='submit' value='submit'>Next</button>
                     </form>
             </div>
         </div>
