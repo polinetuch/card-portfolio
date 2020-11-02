@@ -3,7 +3,7 @@ import './LandingPage.scss';
 
 const LandingPage = () => {
     return (
-        <div className='landing-page'>
+        <div className='landing-page__container'>
             <div className='landing-page__div'>
                 <h1>Welcome to</h1>
             </div>
