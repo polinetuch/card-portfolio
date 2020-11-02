@@ -9,8 +9,6 @@ const OrderForm = () => {
         dateExpected: '',
     });
 
-    const [step, setStep] = useState(1)
-
     const handleSubmit = (e) => {
         e.preventDefault();
         setUserDetails({
@@ -30,10 +28,6 @@ const OrderForm = () => {
             dateExpected: e.target.value
         })
     };
-
-    const nextStep = () => {
-
-    }
 
     return (
         <div className='order-form__container' id='order-form'>

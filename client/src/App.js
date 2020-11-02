@@ -3,8 +3,8 @@ import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-import PersonalDetails from './components/Form/PersonalDetails/PersonalDetails';
 import Home from './components/Home/Home';
+import PersonalDetails from './components/Form/PersonalDetails/PersonalDetails';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 const App = () => {
