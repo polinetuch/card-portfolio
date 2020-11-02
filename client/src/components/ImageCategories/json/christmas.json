@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Christmas Reindeer",
+    "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/christmas/christmas-deer.jpg?raw=true"
+  },
+  {
+    "id": 2,
+    "name": "Christmas Puppy & Presents",
+    "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/christmas/christmas-dog.jpg?raw=true"
+  },
+  {
+    "id": 3,
+    "name": "Christmas Mushroom House & Squirrel",
+    "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/christmas/christmas-mushroom-tree.jpg?raw=true"
+  }
+]

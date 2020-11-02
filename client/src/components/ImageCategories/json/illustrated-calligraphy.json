@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Newborn Koa",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrated-calligraphy/ara-newborn.jpg?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Baby Shower",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrated-calligraphy/baby-shower.jpg?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "Newborn Pia",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrated-calligraphy/bunny-on-moon-illustration.jpeg?raw=true" 
+    },
+    {
+        "id": 4,
+        "name": "Joey and Noel",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrated-calligraphy/calligraphy-01.jpeg?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "Koa",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrated-calligraphy/koa-newborn.JPG?raw=true"
+    },
+    {
+        "id": 6,
+        "name": "Newborn",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrated-calligraphy/newborn.jpg?raw=true"
+    }
+]

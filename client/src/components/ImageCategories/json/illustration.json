@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Cuddly Bunny On The Moon",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/BunnyOnMoon.jpg?raw=true"
+    }, 
+    {
+        "id": 2,
+        "name": "Lady and children holding hands",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/GrilAndKids.jpg?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "Mouse and Champagne",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/celebrate-card.jpeg?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "Circle Of Fruits And A Child",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/child-and-fruit.jpg?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "Christmas Stocking and Koala",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/christmas-koala.jpg?raw=true"
+    },
+    {
+        "id": 6,
+        "name": "Fox Family Of Three Hugging",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/fox-family-illustration.jpeg?raw=true"
+    },
+    {
+        "id": 7,
+        "name": "Girl And A Cat Hugging",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/girl-and-cat.jpg?raw=true"
+    },
+    {
+        "id": 8,
+        "name": "Winter Girl",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/girl-and-wind.jpg?raw=true"
+    },
+    {
+        "id": 9,
+        "name": "Polar Bear And Penguin",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/penguin-polar-bear.jpeg?raw=true"
+    },
+    {
+        "id": 10,
+        "name": "Brown Bear Family Of Three",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/three-brown-bears.jpg?raw=true"
+    },
+    {
+        "id": 11,
+        "name": "Newborn",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/illustrations/welcome-baby-02.jpg?raw=true"
+    }
+]

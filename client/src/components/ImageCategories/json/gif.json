@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Cats Singing Happy Birthday",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/gifs/animal-gif.GIF?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Dog waging his tail",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/gifs/dog-gif.GIF?raw=true"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Newborn Arata",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/ara-newborn-printed.jpg?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Baby Shower",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/baby-shower-02.jpg?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "Blue Flower",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/blue-flower.jpg?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "Proposal Card",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/card-printed.jpg?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "Fox Family of Three",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/fox-family-card.jpg?raw=true" 
+    },
+    {
+        "id": 7,
+        "name": "18th Birthday Card",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/hbd-printed.jpg?raw=true"
+    },
+    {
+        "id": 8,
+        "name": "Joy Card",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/joy-card.jpg?raw=true"
+    },
+    {
+        "id": 9,
+        "name": "Landscape",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/phone-illustration.jpg?raw=true"
+    },
+    {
+        "id": 10,
+        "name": "Circle of fruit and child",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/thank-you-card.jpg?raw=true"
+    },
+    {
+        "id": 11,
+        "name": "Newborn Card",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/printed/welcome-baby.jpg?raw=true"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1, 
+        "name": "Leah & Nora",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/hand-drawn-calligraphy/handdrawn-02.jpg?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Alida",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/hand-drawn-calligraphy/handdrawn-03.jpg?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "Alvina",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/hand-drawn-calligraphy/handdrawn-04.jpg?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "Koa",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/hand-drawn-calligraphy/koa-newborn-printed.jpg?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "Eunike",
+        "image": "https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/hand-drawn-calligraphy/watercolour-draw-01.jpg?raw=true"
+    }
+]
