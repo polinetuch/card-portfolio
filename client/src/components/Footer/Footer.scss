@@ -1,17 +1,29 @@
 .contact {
   &__container {
     min-height: 100vh;
+    padding-top: 10px;
+    font-size: 35px;
+  }
+
+  img {
+    box-shadow: 5px 8px 8px 9px white;
+    object-fit: cover;
+    width: 50%;
+  }
+
+  &__lists {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
+    background-color: #c5aeab;
+    box-shadow: 8px 3px 3px 0px #e9cfcc;
   }
-  &__list {
-    float: right;
-    margin-left: 50%;
+
+  &__lists ul li {
     list-style: none;
-    font-size: 40px;
-    padding: 20px;
-    border-radius: 5px 10px 5px 10px;
+    padding-top: 80px;
+    text-align: center;
   }
+}
+
+@media (max-width: 768px) {
 }
