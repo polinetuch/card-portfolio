@@ -14,7 +14,7 @@ const Navbar = (props) => {
                     <a href='/' className='navbar__logo'>
                         <img 
                             className='navbar__logo-image   '
-                            src='https://github.com/polinetuch/deboodle/blob/main/client/src/components/asset-images/deboodle_logo.jpg?raw=true' 
+                            src='/logo.jpg' 
                             alt='Deboole Logo'/>
                     </a>
                 </div>

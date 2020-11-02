@@ -7,10 +7,9 @@ const About = () => {
         <div className='about__title'>
             <h1>Services:</h1>
             <ul className='about__lists'>
-                <li>Personalised greeting cards of your choice</li>
-                <li>Hand-drawn logos/signs</li>
-                <li>Customised wall arts</li>
-                <li>Invitation cards</li>
+                <li>Hand-drawn watercolour custom illustrations</li>
+                <li>Calligraphy - digital or hand-drawn</li>
+                <li>Personalised greeting cards</li>
             </ul>
         </div>
     </div>
