@@ -5,6 +5,8 @@ import AllImageCategories from '../ImageCategories/AllImageCategories';
 import Christmas from '../ImageCategories/Category/Christmas';
 import Illustration from '../ImageCategories/Category/Illustrations'
 import Contact from '../Footer/Footer';
+import PrintedItems from '../ImageCategories/Category/PrintedItems';
+import IllustratedCalligraphy from '../ImageCategories/Category/IllustratedCalligraphy';
 
 const Home = () => {
     return (
@@ -17,6 +19,10 @@ const Home = () => {
             <AllImageCategories name='Illustrations'>
                 <Illustration/>
             </AllImageCategories>
+            <AllImageCategories>
+                <IllustratedCalligraphy/>
+            </AllImageCategories>
+            <PrintedItems/>
             <Contact/>
         </div>
     )
