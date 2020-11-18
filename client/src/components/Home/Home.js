@@ -1,25 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import LandingPage from '../LandingPage/LandingPage';
 import Service from '../Service/Service';
-import Illustrations from '../ImageCategories/Illustrations';
-import Christmas from '../ImageCategories/Christmas';
-import HandDrawnCalligraphy from '../ImageCategories/HandDrawnCalligraphy';
+import AllImageCategories from '../ImageCategories/AllImageCategories';
+import Christmas from '../ImageCategories/Category/Christmas';
+import Illustration from '../ImageCategories/Category/Illustrations'
 import Contact from '../Footer/Footer';
 
 const Home = () => {
-    const [isCollapsed, setIsCollapsed] = useState(collapsed);
-
     return (
         <div>
             <LandingPage/>
             <Service/>
-            <button onClick={() => setIsCollapsed(!collapsed)}>
-                {isCollapsed ? 'Show' : 'Hide'}
-
-            </button>
-            <Christmas/>
-            <Illustrations/>
-            <HandDrawnCalligraphy/>
+            <AllImageCategories name='Christmas'>
+                <Christmas/>
+            </AllImageCategories>
+            <AllImageCategories name='Illustrations'>
+                <Illustration/>
+            </AllImageCategories>
             <Contact/>
         </div>
     )

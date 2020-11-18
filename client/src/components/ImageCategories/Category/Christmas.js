@@ -1,8 +1,8 @@
 import React from 'react';
-import images from './json/hand-drawn-calligraphy.json';
+import images from '../json/christmas.json';
 import './ImageCategories.scss';
 
-const HandDrawnCalligraphy = () => {
+const Christmas = () => {
     const showAllImages = images.map((element, index) => {
         return (
             <figure key={index}>
@@ -12,7 +12,7 @@ const HandDrawnCalligraphy = () => {
     })
     return (
         <div className='illustration__container'>
-            <h1>Hand Drawn Calligraphy</h1>
+            <h1>Christmas</h1>
             <div className='illustration__image-container'>
                 {showAllImages}
             </div>
@@ -20,4 +20,4 @@ const HandDrawnCalligraphy = () => {
     )
 };
 
-export default HandDrawnCalligraphy;
+export default Christmas;
