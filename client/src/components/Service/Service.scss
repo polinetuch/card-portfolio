@@ -1,9 +1,10 @@
 .about {
   font-size: 35px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 100px;
 
   &__title {
     background-color: #c5aeab;

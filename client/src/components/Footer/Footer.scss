@@ -7,10 +7,10 @@ $bg-color: #c5aeab;
     font-size: 35px;
   }
 
-  img {
-    object-fit: cover;
-    width: 50%;
-  }
+  // img {
+  //  object-fit: cover;
+  //   width: 50%;
+  // }
 
   &__lists {
     display: flex;
@@ -31,10 +31,16 @@ $bg-color: #c5aeab;
     &__lists {
       display: flex;
       flex-direction: column;
+      ul {
+        li {
+          flex-direction: row;
+          font-size: 35px;
+        }
+      }
     }
     img {
-      width: 30px;
-      height: 35px;
+      width: 50%;
+      height: 50%;
     }
   }
 }
