@@ -10,7 +10,7 @@ const AllImageCategories = ({collapsed, children}) => {
                 className="collapse-button"
                 onClick={() => setIsCollapsed(!isCollapsed)}
             >
-                {isCollapsed ? 'Show' : 'Hide'} {children.name}
+                {isCollapsed ? 'View' : 'Hide'} {children.name}
             </div>
             <div
                 className={`collapse-content ${isCollapsed ? 'collapsed' : 'expanded'}`}

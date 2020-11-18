@@ -7,6 +7,7 @@ import Illustration from '../ImageCategories/Category/Illustrations'
 import Contact from '../Footer/Footer';
 import PrintedItems from '../ImageCategories/Category/PrintedItems';
 import IllustratedCalligraphy from '../ImageCategories/Category/IllustratedCalligraphy';
+import Gifs from '../ImageCategories/Category/Gifs';
 
 const Home = () => {
     return (
@@ -19,8 +20,11 @@ const Home = () => {
             <AllImageCategories name='Illustrations'>
                 <Illustration/>
             </AllImageCategories>
-            <AllImageCategories>
+            <AllImageCategories name='Illustrated Calligraphy'>
                 <IllustratedCalligraphy/>
+            </AllImageCategories>
+            <AllImageCategories>
+                <Gifs/>
             </AllImageCategories>
             <PrintedItems/>
             <Contact/>
