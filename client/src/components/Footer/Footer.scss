@@ -1,3 +1,5 @@
+$bg-color: #c5aeab;
+
 .contact {
   &__container {
     min-height: 100vh;
@@ -6,7 +8,6 @@
   }
 
   img {
-    box-shadow: 5px 8px 8px 9px white;
     object-fit: cover;
     width: 50%;
   }
@@ -14,8 +15,7 @@
   &__lists {
     display: flex;
     flex-direction: row;
-    background-color: #c5aeab;
-    box-shadow: 8px 3px 3px 0px #e9cfcc;
+    background-color: $bg-color;
   }
 
   &__lists ul li {
@@ -26,5 +26,15 @@
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .contact {
+    &__lists {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      width: 30px;
+      height: 35px;
+    }
+  }
 }
