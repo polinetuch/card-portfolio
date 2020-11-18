@@ -1,0 +1,18 @@
+$color: #c5aeab;
+$border: #e9cfcc;
+$font-size: 35px;
+$font-weight: bolder;
+
+.collapse-button {
+  background-color: $color;
+  font-size: $font-size;
+  border: 3px solid $border;
+}
+
+.collapse-content.collapsed {
+  display: none;
+}
+
+.collapsed-content.expanded {
+  display: block;
+}
