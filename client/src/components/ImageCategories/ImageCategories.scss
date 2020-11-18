@@ -1,0 +1,45 @@
+$min-height: 100vh;
+$font-size: 60px;
+$font-weight: bolder;
+$width: 30%;
+$height: 30%;
+$color: #c5aeab;
+$shadow: #e9cfcc;
+$border: 2px solid $color;
+
+.illustration {
+  &__container {
+    min-height: $min-height;
+
+    h1 {
+      font-size: $font-size;
+      font-weight: $font-weight;
+      background-color: $color;
+      box-shadow: 5px 5px 5px $shadow;
+    }
+  }
+
+  &__image-container {
+    display: grid;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+  }
+  &__images {
+    width: $width;
+    height: $height;
+    border: $border;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  &__images:hover {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+  }
+}
