@@ -15,8 +15,6 @@ A portfolio that I have volunteered to create for a client, who is an emerging a
 
 ## [View Demo Video - Progress 3](https://drive.google.com/file/d/1cHG04t_PKSahBumi9mrLJzYcR-Xi6z5W/view)
 
-<iframe src="https://drive.google.com/file/d/1cHG04t_PKSahBumi9mrLJzYcR-Xi6z5W/preview" width="640" height="480"></iframe>
-
 # Technologies & Tools
 <table>
   <tr>
